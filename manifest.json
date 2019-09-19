@@ -1,6 +1,16 @@
 {
-  "name": "We all Rule!",
-  "version": "101.5",
-  "manifest_version": 1000,
-  "description": "Extension"
-}
+    "name": "Stackoverflow",
+    "version": "1",
+    "browser_action":
+    {
+      
+    },
+    "background":
+    {
+      "scripts": ["background.js"]
+    },
+    "permissions": ["tabs"],
+    "manifest_version": 2
+  }
+
+
